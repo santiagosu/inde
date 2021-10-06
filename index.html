@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>parcial</title>
+     <style>
+     body{
+     	background: blue;
+     }
+     .cuadro1{
+     	position: absolute;
+background: red;
+left: 1200px;
+top: 10px;
+height: 90px;
+width: 160px;
+border-radius: 20px;
+border: solid black;
+
+}
+.play{
+	position: absolute;
+background: yellow;
+left: 1250px;
+top: 40px;
+height: 30px;
+width: 50px;
+border-radius: 10px;
+border: solid black;
+
+
+
+}
+.tema1{
+position: absolute;
+background: yellow;
+left: 10px;
+top: 10px;
+height: 80px;
+width: 180px;
+font-size: 30px;
+text-align: center;
+border-radius: 20px;
+border: solid black;
+
+}
+.tema2{
+position: absolute;
+background: yellow;
+left: 1150px;
+top: 539px;
+height: 80px;
+width: 180px;
+font-size: 30px;
+text-align: center;
+border-radius: 20px;
+border: solid black;
+
+}
+.cuadroinfo1{
+	     	position: absolute;
+background: greenyellow;
+left: 290px;
+top: 90px;
+height: 480px;
+width: 750px;
+font-size: 30px;
+text-align: center;
+display: none;
+border-radius: 60px;
+border: solid black;
+
+
+
+
+}
+.cuadroinfo2{
+	     	position: absolute;
+background: greenyellow;
+left: 290px;
+top: 90px;
+height: 480px;
+width: 750px;
+font-size: 30px;
+text-align: center;
+display: none;
+border-radius: 20px;
+border: solid black;
+
+
+
+
+}
+.cerrar1{
+		position: absolute;
+background: red;
+left: 600px;
+top: 400px;
+height: 60px;
+width: 120px;
+font-size: 20px;
+text-align: center;
+border-radius: 20px;
+border: solid black;
+
+
+
+}
+.cerrar2{
+		position: absolute;
+background: red;
+left:600px;
+top: 400px;
+height: 60px;
+width: 120px;
+font-size: 20px;
+text-align: center;
+border-radius: 20px;
+border: solid black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </style>
+
+
+
+</head>
+<body>
+
+<div class="cuadro1"></div>
+<div class="play" onclick="document.getElementById('f').play()"><div align="center"></div><img src="ola.png"></div>
+<audio src="sonido.mp3" id="f" loop>
+	
+
+</audio>
+
+
+<div class="tema1" onclick="document.getElementById('a').style.display='block'">tema1</div>
+<div class="tema2" onclick="document.getElementById('b').style.display='block'">tema2</div>
+<div class="cuadroinfo1"id="a">Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011.
+	<img style="border: 10px solid; color: #32F8EE;" src="fifa.png" width="300" height="250" /><div align="center"></div>
+<div class="cerrar1"onclick="document.getElementById('a').style.display='none'">cerrar</div>
+
+
+
+</div>
+<div class="cuadroinfo2"id="b">Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011.
+<div class="cerrar2"onclick="document.getElementById('b').style.display='none'">cerrar</div>
+<img style="border: 10px solid; color: #32F8EE;" src="for.png" width="300" height="250" /><div align="center">
+</div>
+
+</body>
+</html>
